@@ -1,0 +1,60 @@
+body{
+    display: flex;
+}
+
+.row{
+    display: flex;
+}
+
+main div[class='circleVisible']{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#obj11,#obj21, #obj31,#obj41, #obj51, #obj61, #obj71  {
+    background-color: red;
+    opacity: 0.5;
+}
+#obj12,#obj22, #obj32,#obj42, #obj52, #obj62, #obj72{
+    background-color: orange;
+    opacity: 0.5;
+}
+#obj13,#obj23, #obj33,#obj43, #obj53, #obj63, #obj73{
+background-color: yellow;
+opacity: 0.5;
+}
+#obj14,#obj24, #obj34,#obj44, #obj54, #obj64, #obj74{
+    background-color: green;
+    opacity: 0.5;
+}
+#obj15,#obj25, #obj35,#obj45, #obj55, #obj65, #obj75{
+    background-color: DarkTurquoise;
+    opacity: 0.5;
+}
+#obj16,#obj26, #obj36,#obj46, #obj56, #obj66, #obj76{
+    background-color: blue;
+    opacity: 0.5;
+}
+#obj17,#obj27, #obj37,#obj47, #obj57, #obj67, #obj77{
+    background-color: purple;
+    opacity: 0.5;
+}
+
+#btnStartStop{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.speedy{
+    margin-top: 20px;
+}
+#intensityBtn,#circleSize{
+    display: block;
+    margin-top: 20px;
+}
+
+#row2, #row3, #row4, #row5, #row6, #row7{
+    display: none;
+}

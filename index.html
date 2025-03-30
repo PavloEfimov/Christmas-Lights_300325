@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="row" id="row1" visibility = "visible">
+            <div class="circleVisible" id="obj11"></div>
+            <div class="circleVisible" id="obj12"></div>
+            <div class="circleVisible" id="obj13"></div>
+            <div class="circleVisible" id="obj14"></div>
+            <div class="circleVisible" id="obj15"></div>
+            <div class="circleVisible" id="obj16"></div>
+            <div class="circleVisible" id="obj17"></div>
+        </div>
+        <div class="row" id="row2" visibility = "hidden">
+            <div id="obj21"></div>
+            <div id="obj22"></div>
+            <div id="obj23"></div>
+            <div id="obj24"></div>
+            <div id="obj25"></div>
+            <div id="obj26"></div>
+            <div id="obj27"></div>
+        </div>
+        <div class="row" id="row3" visibility = "hidden">
+            <div id="obj31"></div>
+            <div id="obj32"></div>
+            <div id="obj33"></div>
+            <div id="obj34"></div>
+            <div id="obj35"></div>
+            <div id="obj36"></div>
+            <div id="obj37"></div>
+        </div>
+        <div class="row" id="row4" visibility = "hidden">
+            <div id="obj41"></div>
+            <div id="obj42"></div>
+            <div id="obj43"></div>
+            <div id="obj44"></div>
+            <div id="obj45"></div>
+            <div id="obj46"></div>
+            <div id="obj47"></div>
+        </div>
+        <div class="row" id="row5" visibility = "hidden">
+            <div id="obj51"></div>
+            <div id="obj52"></div>
+            <div id="obj53"></div>
+            <div id="obj54"></div>
+            <div id="obj55"></div>
+            <div id="obj56"></div>
+            <div id="obj57"></div>
+        </div>
+        <div class="row" id="row6" visibility = "hidden">
+            <div id="obj61"></div>
+            <div id="obj62"></div>
+            <div id="obj63"></div>
+            <div id="obj64"></div>
+            <div id="obj65"></div>
+            <div id="obj66"></div>
+            <div id="obj67"></div>
+        </div>
+        <div class="row" id="row7" visibility = "hidden">
+            <div id="obj71"></div>
+            <div id="obj72"></div>
+            <div id="obj73"></div>
+            <div id="obj74"></div>
+            <div id="obj75"></div>
+            <div id="obj76"></div>
+            <div id="obj77"></div>
+        </div>
+
+    </main>
+    <div>
+        <input type="button" id="btnStartStop" value="START">
+        <div class="speedy">
+            <span>interval: </span>
+            <input type="text" id="btnSpeed" value="1000">
+            <span>ms</span>
+        </div>
+        <div id="controlPanel">
+    
+            <div>
+                <input type="color" name="color" id="inputColor"> <span>to change color - click the circle</span>
+                <input type="checkbox" name="colorCheck" id="colorCheckbox">
+            </div>
+       
+            <input type="range" name="intensity" id="intensityBtn"> <span>the intensity value</span>
+            <input type="text" id="circleSize" value="50"><span>the circle size, px</span>
+            <input type="checkbox" name="sizeCheck" id="sizeCheckbox">
+            <div>
+                <input 
+                type="range" 
+                name="rowsNumber" 
+                id="rowsNumber"
+                min="1"
+                max="7"
+                value="1"
+                step="1"
+                >
+                <label for="rowsNumber">number of rows</label>
+                <span id="spanRowsNumber">1</span>
+            </div>
+
+    
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

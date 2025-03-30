@@ -383,4 +383,7 @@ function fnRowsNumber (e){
 
         break;
     }
+
+    prevObj = objects[objects.length-1];
+    currObj = objects[0];
 }
